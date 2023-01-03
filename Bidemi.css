@@ -1,0 +1,155 @@
+ /* Reset */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /*main styling */
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  /* Navbar*/
+  .navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    color:white;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+  }
+
+
+  .navbar a {
+    color: #F05F40;  
+  }
+
+  .overlay > p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+  .dash{
+    width: 70px;
+    border-bottom: 5px solid #F05F40;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 15%;
+  }
+
+  .navbar .logo a:hover{
+    color: antiquewhite;
+
+  }
+
+  .navbar a:hover{
+    color: blue;
+   border-radius: 15px;
+  }
+
+
+  .nav-items{
+    display: flex;
+  }
+
+
+  .nav-items > a {
+    display: block;
+    padding: 5px 10px;
+  }
+
+  .nav-items >a:hover{
+    background-color:antiquewhite;
+  }
+
+
+  .navbar-image {
+    width: 100%;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .overlay > h1{
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+
+  .find-out-more{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+ .find-out-more >a{
+    color: white;
+    display: block;
+    background-color: #F05F40;
+    padding: 9px 20px;
+    border-radius: 19px;
+  }
+
+  .find-out-more > a:hover{
+    background-color:antiquewhite;
+    color: blue;
+   border-radius: 15px;
+  }
+
+
+
+  /*section 2 */
+
+.section-b {
+  background-color: #F05F40;
+  padding: 40px;
+}
+
+.section-b > h1{
+text-align: center;
+color: white;
+}
+
+.section-b > p{
+  text-align: center;
+}
+
+
+
+.second-dash{
+  width: 70px;
+    border-bottom: 5px solid white;
+    height: 5px;
+    margin: 15px auto;
+    border-radius: 15%;
+}
+
+.bottom-p{
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
